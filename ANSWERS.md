@@ -6,9 +6,14 @@ This is a trick, or outdated question. As of the React Hooks implementation Ther
 
 componentDidMount - This method is called after render, and provides functionality appropriatly based on its compoent state.
 
+componentDidUpdate - this method is called after render, and after state/data change, and provides the ability to provide functionality only after data/statechange.
+
+componentWillUnmount - this method is called on close just prior to data destroy. this functionality is intended to provide cleanup of data, events, and properties that are no longer in use.
+
 - [ ] What is the purpose of a custom hook?
 
 to provide custom useState and useEffect functionality encapsulated in its own component.
 
 - [ ] Why is it important to test our apps?
+
       to identify bugs and unexpected behaviour prior to regrssion thought the application. It will ensure expected behaviour as you continue to build out components and or dependants within the applications functionality.
