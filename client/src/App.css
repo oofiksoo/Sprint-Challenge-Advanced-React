@@ -62,3 +62,10 @@
     position: relative;
     width: 40px;
 }
+
+.searchCount {
+    padding: 0.5rem;
+    color: white;
+    background-color: skyblue;
+    border-radius: 100%;
+}
