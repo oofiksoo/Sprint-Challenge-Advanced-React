@@ -4,7 +4,7 @@ export default props => {
   return (
     <div className="playerCardSpace">
       {props.players.map(player => (
-        <div className="playerCard">
+        <div className="playerCard" key={player.id}>
           <h1>{player.name}</h1>
           <h3>{player.country}</h3>
           <div className="searchCount">
